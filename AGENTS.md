@@ -27,6 +27,23 @@
     - Correr tests: `npm test`
     - Levantar entorno local: `npm run dev`
     - Build: `npm run build`
+ 
+
+## Estilo de commits
+
+Debes usar uno de los siguientes prefijos para cada commit:
+
+- **`feat`**: Una nueva característica o funcionalidad para el usuario (ej. *nuevo módulo de agenda, nuevo endpoint de pacientes*).
+- **`fix`**: Corrección de un error o bug (ej. *corrección de error al guardar historia clínica, validación de DIAN*).
+- **`docs`**: Cambios exclusivos en la documentación (ej. *actualización del README, cambios en la Wiki, nuevos diagramas*).
+- **`style`**: Cambios que no afectan el significado del código (espaciado, formato, comas, uso de Prettier/ESLint).
+- **`refactor`**: Un cambio de código que no corrige un error ni añade una característica, pero mejora la estructura (ej. *simplificación de un controlador, extracción de un componente en React*).
+- **`perf`**: Un cambio de código que mejora el rendimiento de la aplicación.
+- **`test`**: Añadir pruebas faltantes o corregir pruebas existentes (Jest, Supertest, Playwright).
+- **`build`**: Cambios que afectan el sistema de construcción o dependencias externas (ej. *npm, configuraciones de Prisma, empaquetado de Electron*).
+- **`ci`**: Cambios en los archivos de configuración y scripts de Integración Continua (ej. *GitHub Actions*).
+- **`chore`**: Otras tareas de mantenimiento que no modifican código fuente ni pruebas (ej. *actualizar dependencias menores, limpieza de archivos ignorados*).
+
 
 ## Archivos y estructura
 
