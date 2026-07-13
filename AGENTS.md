@@ -52,7 +52,7 @@ Debes usar uno de los siguientes prefijos para cada commit:
 - Estructura de carpetas relevante (ejemplo sugerido en base al stack):
     - `src/frontend/` → Componentes de React, interfaces, Tailwind, hooks y vistas.
     - `src/backend/` → Controladores, rutas de Express, servicios de lógica de negocio.
-    - `prisma/` → Modelos de base de datos (schema.prisma) y migraciones.
+    - `src/prisma/` → Modelos de base de datos (schema.prisma) y migraciones.
 
 ## Qué NO tocar
 
