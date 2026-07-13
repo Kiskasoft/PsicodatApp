@@ -1,7 +1,7 @@
 ## Contexto del proyecto
 
 - **Qué es**: Sistema de gestión clínica y de historias clínicas enfocado en la normativa colombiana (Resolución 3100, Ley 23 de 1981 y Habeas Data), diseñado con arquitectura "Local-First" que escala a SaaS.
-- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron.
+- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron, ademas se va usar de lenguaje TypeScript.
 - **Audiencia / usuarios**: Psicólogos, profesionales de la salud mental y clínicas en Colombia (incluye roles como médicos, administradores y personal autorizado).
 
 ## Principios generales
