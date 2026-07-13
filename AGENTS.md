@@ -1,7 +1,7 @@
 ## Contexto del proyecto
 
 - **Qué es**: Sistema de gestión clínica y de historias clínicas enfocado en la normativa colombiana (Resolución 3100, Ley 23 de 1981 y Habeas Data), diseñado con arquitectura "Local-First" que escala a SaaS.
-- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express/NestJS); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron.
+- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron.
 - **Audiencia / usuarios**: Psicólogos, profesionales de la salud mental y clínicas en Colombia (incluye roles como médicos, administradores y personal autorizado).
 
 ## Principios generales
@@ -51,7 +51,7 @@ Debes usar uno de los siguientes prefijos para cada commit:
 - Evita refactors grandes de estructura de carpetas a menos que se solicite explícitamente.
 - Estructura de carpetas relevante (ejemplo sugerido en base al stack):
     - `src/frontend/` → Componentes de React, interfaces, Tailwind, hooks y vistas.
-    - `src/backend/` → Controladores, rutas de Express/NestJS, servicios de lógica de negocio (RBAC, facturación, etc.).
+    - `src/backend/` → Controladores, rutas de Express, servicios de lógica de negocio.
     - `prisma/` → Modelos de base de datos (schema.prisma) y migraciones.
 
 ## Qué NO tocar
