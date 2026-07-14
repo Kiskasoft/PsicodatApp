@@ -1,33 +1,18 @@
 ## Contexto del proyecto
 
 - **Qué es**: Sistema de gestión clínica y de historias clínicas enfocado en la normativa colombiana (Resolución 3100, Ley 23 de 1981 y Habeas Data), diseñado con arquitectura "Local-First" que escala a SaaS.
-- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron, ademas se va usar de lenguaje TypeScript.
+- **Stack principal**: Frontend con React.js y Tailwind CSS; Backend con Node.js (Express); Base de datos local con SQLite + SQLCipher, Base de datos en la nube con PostgreSQL; ORM con Prisma; y empaquetado de escritorio con Electron.
 - **Audiencia / usuarios**: Psicólogos, profesionales de la salud mental y clínicas en Colombia (incluye roles como médicos, administradores y personal autorizado).
 
 ## Principios generales
 
 - Prefiere cambios pequeños y fáciles de revisar sobre refactors grandes.
-- No inventes frameworks, librerías o herramientas nuevas sin que se pida explícitamente.
-- Mantén la consistencia con los patrones ya existentes en el repo, aunque no sean los que tú elegirías.
 - Si una tarea es ambigua, haz la suposición más razonable y decláralo en tu respuesta, no te quedes bloqueado.
 
 ## Calidad de código
 
-- Preserva el formato y las convenciones ya presentes (indentación, nombres, orden de imports).
 - Agrega o actualiza tests solo si el repo ya tiene una suite de tests establecida.
-- Explica brevemente los tradeoffs cuando tomes decisiones de arquitectura, en formato de nota tipo PR.
-- Usa Prettier y ESLint siguiendo las configuraciones del repositorio. Asegura tipado estricto (TypeScript si aplica) para evitar errores críticos en entornos clínicos.
-
-## Comandos y scripts del proyecto
-
-- Usa los scripts/comandos ya definidos en `README.md` o `package.json`.
-- No agregues nuevo tooling de build a menos que sea estrictamente necesario.
-- Comandos clave (asumidos según el stack de Node/React):
-    - Instalar dependencias: `npm install` o `npm ci`
-    - Correr tests: `npm test`
-    - Levantar entorno local: `npm run dev`
-    - Build: `npm run build`
- 
+- Usa Prettier y ESLint siguiendo las configuraciones del repositorio. Asegura tipado estricto para evitar errores críticos en entornos clínicos.
 
 ## Estilo de commits
 
