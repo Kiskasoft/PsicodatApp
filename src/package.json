@@ -1,0 +1,29 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start:frontend": "cd frontend && npm run dev",
+      "start:backend": "cd backend && npx nodemon src/server.js",
+      "start:electron": "wait-on tcp:5173 && electron electron/main.js",
+      "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\" \"npm run start:electron\""
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "electron": "^43.1.0",
+    "prisma": "^7.8.0",
+    "wait-on": "^9.0.10"
+  },
+  "allowScripts": {
+    "prisma@7.8.0": true,
+    "@prisma/engines@7.8.0": true
+  },
+  "dependencies": {
+    "@prisma/client": "^7.8.0"
+  }
+}
